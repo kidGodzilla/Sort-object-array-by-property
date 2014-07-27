@@ -1,4 +1,4 @@
-function sort(key,array,dir) {
+function sortJSON(key,array,dir) {
     /* Sorts an array of objects by an object key */
     array.sort(function(h, i) {
         dir = dir || 1;
