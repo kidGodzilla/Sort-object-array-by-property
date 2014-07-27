@@ -1,4 +1,4 @@
-Sort-object-array-by-property
+Sort object array by property
 =============================
 
 JavaScript Sort Function
