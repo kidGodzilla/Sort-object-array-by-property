@@ -1,7 +1,11 @@
 Sort object array by property
 =============================
 
-JavaScript Sort Function
+A JavaScript Sort Function implemented using Array.prototype.sort(). This allows one to quickly sort an array of JavaScript objects by a particular property. 
+
+The function is called sortJSON(key, array, direction), with direction being optional. Setting direction to -1 reverses the sort.
+
+In unicode, Uppercase letters occur before lowercase, therefore `Zulu` would come before `andrew`. Since this is not what most users would want, `.toLowerCase` has been appended to the function below.
 
 ### Example Usage
 
