@@ -5,7 +5,7 @@ JavaScript Sort Function
 
 ### Example Usage
 
-    function sort(key,array,dir) {
+    function sortJSON(key,array,dir) {
         /* Sorts an array of objects by an object key */
         array.sort(function(h, i) {
             dir = dir || 1;
@@ -21,8 +21,8 @@ JavaScript Sort Function
       {name: 'Peaches'}
     ];
     
-    sort('name', array);
+    sortJSON('name', array);
     console.log(array);
     
-    sort('name', array, -1);
+    sortJSON('name', array, -1);
     console.log(array);
